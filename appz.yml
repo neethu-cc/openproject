@@ -8,7 +8,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: openproject-12.3.2
+    image_template: openproject-12.3
 
 deploy:
     context: neethu-cc/DEV
@@ -36,4 +36,4 @@ properties:
     POSTGRES_USER: openproject
     POSTGRES_PASSWORD: 
       vault: POSTGRESQL_OPENPROJECT_PASSWORD
-    revision: 36
+    revision: 37
