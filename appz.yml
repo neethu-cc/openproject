@@ -4,7 +4,7 @@ app:
     notify: njose@ecloudcontrol.com
 
 build:
-    version: 12.3.2
+    version: 12.3
     env: DEV
     build_file: none
     output_files: output/*.zip
