@@ -14,7 +14,7 @@ deploy:
     context: neethu-cc/DEV
     type: statefulset
     replicas: 2
-    port:
+    port: 12000
     - 80
 volumes:
 - claim: openproject-assets
@@ -32,7 +32,6 @@ properties:
       vault: SECRET_KEY_BASE
     POSTGRES_HOST: openproject-postgres-13-x    
     POSTGRES_PORT: 5432
-    PORT: 12000
     POSTGRES_DB: openproject
     POSTGRES_USER: openproject
     POSTGRES_PASSWORD: 
