@@ -32,6 +32,7 @@ properties:
       vault: SECRET_KEY_BASE
     POSTGRES_HOST: openproject-postgres-13-x    
     POSTGRES_PORT: 5432
+    PORT: 12000
     POSTGRES_DB: openproject
     POSTGRES_USER: openproject
     POSTGRES_PASSWORD: 
