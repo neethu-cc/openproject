@@ -14,8 +14,10 @@ deploy:
     context: neethu-cc/DEV
     type: statefulset
     replicas: 2
-    port: 12000
+    
+    port: 
     - 80
+    - 12000
 volumes:
 - claim: openproject-assets
   mount: /appz/data/openproject  
