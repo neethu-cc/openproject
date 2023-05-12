@@ -29,7 +29,7 @@ properties:
     RSYNC_SECRET:
       vault: RSYNC_SECRET
     REMOTEHOST2: 3.128.202.133
-    REMOTEPORT2: 12000
+    REMOTEPORT2: 31181
     SECRET_KEY_BASE: 
       vault: SECRET_KEY_BASE
     POSTGRES_HOST: openproject-postgres-13-x    
